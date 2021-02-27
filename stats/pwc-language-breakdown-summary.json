@@ -1,52 +1,9 @@
 {
-   "series" : [
-      {
-         "data" : [
-            [
-               "Blog",
-               1355
-            ],
-            [
-               "Perl",
-               4723
-            ],
-            [
-               "Raku",
-               3033
-            ]
-         ],
-         "dataLabels" : {
-            "align" : "right",
-            "format" : "{point.y:.0f}",
-            "style" : {
-               "fontFamily" : "Verdana, sans-serif",
-               "fontSize" : "13px"
-            },
-            "y" : 10,
-            "enabled" : "true",
-            "color" : "#FFFFFF",
-            "rotation" : -90
-         },
-         "name" : "Contributions"
-      }
-   ],
-   "xAxis" : {
-      "labels" : {
-         "style" : {
-            "fontFamily" : "Verdana, sans-serif",
-            "fontSize" : "13px"
-         }
-      },
-      "type" : "category"
-   },
-   "chart" : {
-      "type" : "column"
-   },
-   "subtitle" : {
-      "text" : "Last updated at 2021-02-22 06:15:37 GMT"
-   },
    "tooltip" : {
       "pointFormat" : "<b>{point.y:.0f}</b>"
+   },
+   "subtitle" : {
+      "text" : "Last updated at 2021-02-26 06:04:26 GMT"
    },
    "title" : {
       "text" : "Perl Weekly Challenge Contributions [2019 - 2020]"
@@ -57,7 +14,50 @@
          "text" : null
       }
    },
+   "series" : [
+      {
+         "data" : [
+            [
+               "Blog",
+               1358
+            ],
+            [
+               "Perl",
+               4752
+            ],
+            [
+               "Raku",
+               3056
+            ]
+         ],
+         "dataLabels" : {
+            "y" : 10,
+            "align" : "right",
+            "format" : "{point.y:.0f}",
+            "color" : "#FFFFFF",
+            "style" : {
+               "fontFamily" : "Verdana, sans-serif",
+               "fontSize" : "13px"
+            },
+            "enabled" : "true",
+            "rotation" : -90
+         },
+         "name" : "Contributions"
+      }
+   ],
    "legend" : {
       "enabled" : "false"
+   },
+   "xAxis" : {
+      "labels" : {
+         "style" : {
+            "fontSize" : "13px",
+            "fontFamily" : "Verdana, sans-serif"
+         }
+      },
+      "type" : "category"
+   },
+   "chart" : {
+      "type" : "column"
    }
 }
